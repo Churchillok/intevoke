@@ -417,10 +417,14 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="relative px-6 py-12 border-t border-white/10">
-        <div className="mx-auto max-w-6xl flex flex-col md:flex-row items-center justify-between gap-4">
+        <div className="mx-auto max-w-6xl flex flex-col md:flex-row items-center justify-between gap-6">
           <span className="text-xl font-bold text-white">intevoke</span>
+          <div className="flex items-center gap-6 text-sm">
+            <a href="/changelog" className="text-gray-400 hover:text-teal transition-colors">Changelog</a>
+            <a href="mailto:hello@intevoke.com" className="text-gray-400 hover:text-teal transition-colors">Contact</a>
+          </div>
           <p className="text-gray-500 text-sm">
-            &copy; {new Date().getFullYear()} Intevoke. All rights reserved.
+            &copy; {new Date().getFullYear()} Intevoke
           </p>
         </div>
       </footer>
